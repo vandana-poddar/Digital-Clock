@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    background:url("./Second.png") ;
+    background-size:cover;
+    overflow: hidden;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+  text-align:center ;
+  font-size: 24px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.container{
+ display:flex ;   
+}
+
+.container div{
+    margin:8px;
+}
+
+.container span{
+    height:90px;
+    width:80px;
+    background-color: rgb(24, 91, 140);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.container .text{
+    height: 30px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    display: flex;
+    letter-spacing: 2px;
+    background-color: rgb(86, 157, 157);
+}
+.container #AMPM{
+top: 100px;
+position: relative;
+width: 30px;
+height: 20px;
+font-size: 12px;
+background-color: rgb(60, 221, 157);
+opacity: 0.8;;
+}
